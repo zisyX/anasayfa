@@ -10,15 +10,9 @@ body{
     position: fixed;
     position: absolute;
 }
-.wpimg{
-    position: fixed;
-    right: 10px;
-    top: 200px;
-    width: 50px;
-}
 .anadiv{
     margin: auto;
-    border: 3px dashed black;
+    border: 3px solid black;
     width: 80%;
     background-color: #363535;
     min-height: 500px;
@@ -57,50 +51,18 @@ li a{
     border: 1px solid black;
 }
 li a:hover{
-    
     color: aqua;
 }
-.ortayazi{
-    width: 200px;
-    background-color: lightgray;
-    margin: auto;
-}
+
 .link{
     width: 50%;
     background-color: #363535;
     margin: auto;
     min-height: 200px;
     text-align: left;
-    font-size: 30px;
-    
-}
-.hover a:hover{
-    color: red;
-}
-.hover2 a:hover{
-    font-weight: bold;
-}
-table{
-    border: 3px dotted black;
-    margin: auto;
-}
-td{
-  border: 1px solid red;
-    width: 60px;
-    height: 40px;
-}
-td:hover{
-    background-color: blueviolet;
-}
-.div1{
-    float: left;
-    width: 25%;
-    padding: 5px;
-}
-.div2{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+    font-size: 20px;
+    color: cadetblue;
+    text-align: center;
 }
 .ul{
     width:60%;
@@ -110,4 +72,16 @@ td:hover{
     background-color: black;
     list-style-type: none;
     border-style: none;
+}
+.homebutton{
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    width: 30px;
+}
+.dcbutton{
+    position: fixed;
+    left: 1270px;
+    top: 20px;
+    width: 30px;
 }
