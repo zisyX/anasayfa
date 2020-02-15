@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    color: darkred;
+}
+*{box-sizing: border-box}
+body{
+    font-family: calibri;
+    background-color: black;
+    background-repeat: repeat;
+    position: fixed;
+    position: absolute;
+}
+.wpimg{
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    width: 50px;
+}
+.anadiv{
+    margin: auto;
+    border: 3px dashed black;
+    width: 80%;
+    background-color: #363535;
+    min-height: 500px;
+}
+.banner{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+}
+.banner2{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+}
+ul{
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4f0700;
+    width: 80%;
+    list-style-type: none;
+}
+li{
+    float: left;
+    width: 25%;
+}
+li a{
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    border: 1px solid black;
+}
+li a:hover{
+    
+    color: aqua;
+}
+.ortayazi{
+    width: 200px;
+    background-color: lightgray;
+    margin: auto;
+}
+.link{
+    width: 50%;
+    background-color: #363535;
+    margin: auto;
+    min-height: 200px;
+    text-align: left;
+    font-size: 30px;
+    
+}
+.hover a:hover{
+    color: red;
+}
+.hover2 a:hover{
+    font-weight: bold;
+}
+table{
+    border: 3px dotted black;
+    margin: auto;
+}
+td{
+  border: 1px solid red;
+    width: 60px;
+    height: 40px;
+}
+td:hover{
+    background-color: blueviolet;
+}
+.div1{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.div2{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.ul{
+    width:60%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+    border-style: none;
+}
